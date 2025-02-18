@@ -5,7 +5,7 @@ from datetime import date
 Arrests = 0
 today = date.today()
 
-Look_out = {'HERNANDEZ, JORGE','MARTINEZ, SONYA'}
+Look_out = {'HERNANDEZ, JORGE','MARTINEZ, SONYA'} #testing example
 
 
 bookings_page = requests.get("https://news.washeriff.net/divisions/bookings/")
